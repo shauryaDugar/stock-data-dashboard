@@ -13,7 +13,7 @@ st.title('Stock Dashboard')
 ticker = st.sidebar.text_input('Ticker', value="AAPL")
 start_date = st.sidebar.date_input('Start Date', value=datetime.datetime(2024, 1, 1))
 end_date = st.sidebar.date_input('End Date')
-# slider = st.sidebar.slider('NEW Slider')
+slider = st.sidebar.slider('NEW Slider')
 
 
 # downloading stock data from yfinance into data (a pd dataframe)
